@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3-1</title>
+	<style>
+	    * {
+	    	padding: 0;
+	    	margin: 0;
+	    }
+	    .top h1 {
+	    	text-align: center;
+	    	margin-bottom: 6px;
+	    	margin-top: 30px;
+	    	/*控制变化时间*/
+	    	transition: color 1s;
+	    }
+	    /*横线从中间变化延长*/
+	    #line {
+	    	width: 0;
+	    	height: 2px;
+	    	background-color: #1b60d2;
+	    	margin: 0 auto;
+	    	/*控制变化时间*/
+	    	transition: width 1s;
+	    }
+		.bottom {
+			text-align: center;
+		}
+		.bottom button {
+			margin-top: 10px;
+			border-radius: 5px;
+			outline: none;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<h1 id="theCo">前端学院</h1>
+		<div id="line"></div>
+	</div>
+    <div class="bottom">
+		<button type="button" id="bto">切换样式</button>
+    </div>
+    <script>
+    	var theCo = document.getElementById("theCo");
+    	var bto = document.getElementById("bto");
+    	var line = document.getElementById("line");
+    	bto.onclick = function changeColor(){
+    		if (theCo.style.color == "blue") {
+    			line.style.width = "0px";
+    			theCo.style.color = "black";
+    		}else{
+    			line.style.width = "126px";
+    			theCo.style.color = "blue";
+    		}
+    	}
+    </script>
+</body>
+</html>
