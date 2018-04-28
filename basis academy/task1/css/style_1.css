@@ -1,0 +1,43 @@
+.warp {
+    width: 50%;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.ifo-bottom div {
+    float: left;
+    margin-right: 30px;
+}
+.ifo-bottom span {
+    margin: 0 8px;
+}
+.cot-bottom div {
+    float: left;
+    margin-right: 30px;
+}
+.cot-bottom span {
+    margin: 0 8px;
+}
+.abi p {
+    margin: 0;
+}
+.abi-middle {
+    margin-bottom: 20px;
+}
+.edu p {
+    margin: 0;
+}
+.edu-middle {
+    margin-bottom: 20px;
+}
+.prj p {
+    margin: 0;
+}
+.prj-middle {
+    margin-bottom: 20px;
+}
