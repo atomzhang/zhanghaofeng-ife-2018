@@ -1,0 +1,18 @@
+.main {
+	display: flex;
+}
+.left {
+	flex: 0 0 300px;
+	height: 500px;
+	background-color: #333;
+}
+.middle {
+	flex: 0 0 300px;
+	height: 500px;
+	background-color: #666;
+}
+.right {
+	flex: 1;
+	height: 500px;
+	background-color: #999;
+}

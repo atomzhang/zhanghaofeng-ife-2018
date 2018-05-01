@@ -1,0 +1,13 @@
+.main {
+	display: flex;
+}
+.left {
+	width: 30%;
+	height: 500px;
+	background-color: #555;
+}
+.right {
+	width: 70%;
+	height: 500px;
+	background-color: #999;
+}

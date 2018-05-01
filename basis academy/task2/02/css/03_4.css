@@ -1,0 +1,17 @@
+.left {
+	float: left;
+	width: 300px;
+	height: 500px;
+	background-color: #333;
+}
+.middle {
+	float: left;
+	width: 300px;
+	height: 500px;
+	background-color: #666;
+}
+.right {
+	margin-left: 600px;
+	height: 500px;
+	background-color: #999;
+}

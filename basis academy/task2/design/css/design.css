@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;;
+	clear: both;
+}
+header {
+	height: 100px;
+	background-color: #333;
+}
+header .container {
+	width: 960px;
+	margin: 0 auto;
+}
+header h1 {
+	float: left;
+	display: block;
+	color: #fff;
+	height: 100px;
+	line-height: 100px;
+}
+header .right {
+	float: right;
+	margin-top: 10px;
+}
+.right a {
+	color: #fff;
+}
+.banner {
+	position: relative;
+	height: 400px;
+	background-color: #6b3;
+}
+.corner {
+	position: absolute;
+	bottom: 10px;
+	right: 160px;
+}
+.corner button {
+	display: inline-block;
+	font-size: 1.1em;
+	width: 24px;
+	height: 28px;
+	border: 1px solid black;
+	background-color: #b2dd99;
+	outline: none;
+	cursor: pointer;
+}
+.corner button:hover {
+	padding-top: 6px;
+	height: 34px;
+	background-color: #e0f1d6;
+}
+.nav {
+	border-bottom: 1px solid #ddd;
+}
+.nav .container {
+	position: relative;
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+.nav ul {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	/*实现按钮下方无横线*/
+	margin-bottom: -1px;
+}
+.nav ul li {
+	width: 90px;
+	height: 50px;
+	font-size: 1em;
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #eee;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid transparent;
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+.nav ul li:hover {
+	background-color: #fff;	
+}
+.content .container {
+	width: 960px;
+	height: 610px;
+	margin: 0 auto;
+}
+.content-top {
+	display: flex;
+}
+.content-top div {
+	flex: 1;
+	/*至少80px内边距*/
+	padding: 80px;
+	text-align: center;
+	margin: 5px;
+	border: 1px solid #ccc;
+}
+.content-middle {
+	display: flex;
+}
+.content-middle div {
+	flex: 1;
+	text-align: center;
+	margin: 5px;
+	/*至少80px内边距*/
+	padding: 80px;
+	border: 1px solid #ccc;
+}
+.content-bottom {
+	display: flex;
+}
+.content-bottom div {
+	flex: 1;
+	text-align: center;
+	margin: 5px;
+	/*至少80px内边距*/
+	padding: 80px;
+	border: 1px solid #ccc;
+}
+footer {
+	height: 150px;
+	text-align: center;
+	background-color: #666;
+}
+footer p {
+	padding-top: 10px;
+}
+
+
+
+
+

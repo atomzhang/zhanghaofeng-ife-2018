@@ -1,0 +1,24 @@
+.main {
+	position: relative;
+}
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 500px;
+	background-color: black;
+}
+.middle {
+	position: absolute;
+	top: 0;
+	left: 300px;
+	width: 300px;
+	height: 500px;
+	background-color: red;
+}
+.right {
+	margin-left: 600px;
+	height: 500px;
+	background-color: blue;
+}
